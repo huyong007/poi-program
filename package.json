@@ -6,6 +6,11 @@
     "dev": "poi --serve"
   },
   "devDependencies": {
-    "poi": "^12.4.2"
+    "poi": "^12.4.2",
+    "react": "^16.8.6",
+    "react-hot-loader": "^4.9.0"
+  },
+  "dependencies": {
+    "react-dom": "^16.8.6"
   }
 }
