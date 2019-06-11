@@ -1,3 +1,5 @@
+import ReactDOM from 'react-dom';
+
 class Square extends React.Component {
   render() {
     return (
@@ -59,5 +61,6 @@ class Game extends React.Component {
 
 ReactDOM.render(
   <Game />,
-  document.getElementById('root')
+  // document.getElementById('root')
 );
+// export default hot(module)(App)
