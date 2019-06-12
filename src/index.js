@@ -1,4 +1,5 @@
 import ReactDOM from 'react-dom';
+import Root from './assets/root'
 
 class Square extends React.Component {
   render() {
@@ -61,6 +62,6 @@ class Game extends React.Component {
 
 ReactDOM.render(
   <Game />,
-  // document.getElementById('root')
+  document.getElementById('root')
 );
 // export default hot(module)(App)
